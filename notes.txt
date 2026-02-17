@@ -1,0 +1,12 @@
+open command prompt
+cd Desktop
+cd fast_api
+python -m venv proj(we already did, no need to do again)
+proj\Scripts\activate
+uvicorn crud.main:app --reload
+(here uvicorn mandatory crud is a folder name main is a file name 
+inside folder app is mandatory --reload is mandatory)
+
+click on url(127.0.0.1:8000)
+after going into browser open swagger ui by adding docs at end
+127.0.0.1:8000/docs
